@@ -10,16 +10,15 @@ html(lang="en")
 		title scrumblr
 
 body
-	h1 scrumblr by <a href="http://aliasaria.ca">aliasaria</a>
 
 	div.board-outline
 		div#board
 			div#board-doodles
-		
-			
+
+
 			table#board-table.board-table
 				tr
-					td 
+					td
 						h1.home scrumblr.
 						form.home(onsubmit="return go();")
 							label name your new board:
@@ -30,8 +29,8 @@ body
 						p.home example board:
 						p.home!= '<a href="http://' + locals.url + '/demo">' + locals.url + '/demo</a>'
 						<br><br><br>
-						p.home.small sourcecode at <a href="https://github.com/aliasaria/scrumblr">github</a>
-				
+						p.home.small sourcecode at <a href="https://github.com/rrmartins/scrumblr">github</a>
+
 	div.stickers
 		div.sticker#sticker-red
 			image(src="/images/stickers/sticker-red.png")
